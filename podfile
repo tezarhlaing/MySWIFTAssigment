@@ -1,0 +1,14 @@
+platform :ios, '13.0'
+use_frameworks!
+
+target 'LLOYDSTest' do
+  pod 'RxSwift', '5.0.0'
+  pod 'ObjectMapper', '3.5.1'
+  pod 'RxDataSources' ,'4.0.1'
+  pod 'Alamofire', '5.6.2'
+  pod 'PKHUD', '~> 5.0'
+
+  target 'LLOYDSTestTests' do
+      inherit! :search_paths
+  end
+end
